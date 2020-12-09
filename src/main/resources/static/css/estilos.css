@@ -1,0 +1,176 @@
+.logo{
+    height: 3em !important;
+}
+.pad1{
+    padding: 1em;
+}
+.bg-2{
+    background: white;
+}
+.bg-1{
+    background: #82ca9c;
+}
+.cuadrobox{
+     box-shadow: 0 0 5px 0 rgba(55,50,40,.20);
+}
+.full-vt{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    background: rgba(0,0,0,0.6);
+    display: none;
+}
+.login-cli{
+    width: 20em;
+    margin: 10% auto;
+    padding: 2%;
+    background: white;
+}
+.boton-cerrar{
+    background: none;
+    color: white;
+    border: none;
+    float: right;
+    padding: 1em 2em;
+}
+.perfil{
+    display: none;
+    position: absolute;
+    background: white;
+    padding: 0.5em 1em;
+    z-index: 100;
+}
+.pago_visa{
+    width: 20em;
+    margin: 0 auto;
+    max-width: 90%;
+}
+.comprobante{
+   padding: 5%;
+}
+.comprobante>div{
+    padding: 2%;
+}
+.datos-empresa>div{
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+.perfil a{
+    display: block;
+}
+.usuario:hover .perfil{
+    display: inline-block;
+}
+.filtros{
+    width: 15%;
+    display: inline-block;
+    vertical-align: top;
+}
+.articulos{
+    width: 85%;
+    display: inline-block
+}
+.lista-articulo>div{
+    max-width: 90%;
+    width: 18em;
+    display: inline-block;
+    float: none;
+}
+.articulo{
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0 rgba(55,50,40,.20);
+}
+.articulo img{
+    max-height: 12em;
+}
+.articulo h4{
+    max-height: 1.5em;
+    overflow: hidden;
+}
+.articulo p{
+    padding: 0 1em ;
+    font-size: 12px;
+    max-height: 4em;
+    overflow: hidden;
+}
+.articulo>div:hover{
+    background: #82ca9c;
+    color: #fff;
+}
+.agreagar-pro{
+    cursor: pointer;
+    border: 1px solid #f1aa8d;
+    border-radius: 2px;
+    background: #f2885c;
+    color: white;
+    padding: 0 0.5em ;
+}
+.agreagar-pro:hover,.agreagar-pro:focus{
+    color: white !important;
+}
+.ver_pro,.ver_ser{
+    margin: 5em 10%;
+    overflow: auto;
+    height: 80%;
+    width: 80%;
+}
+.ver_pro>div{
+    padding:1em;
+}
+.ver_pro>div>div{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.ver_pro img{
+    max-height: 20em;
+
+}
+.ver_pro .descripcion{
+    width: 100%;
+}
+.for-agregar-pro input,.for-agregar-pro button{
+    width: 6em !important;
+    display: block;
+    height: 2em;
+
+}
+servicio img{
+    max-height: 20em;
+}
+.servicios>div,.servicio>div{
+    width: 50%;
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+}
+.servicio{
+    background: white;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0 rgba(55,50,40,.20);
+}
+.carrito>div:first-child{
+    width: 70%;
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+}
+.carrito>div:last-child{
+    width: 30%;
+    display: inline-block;
+    padding: 0.5em;
+    vertical-align: top;
+}
+.tabla-compras{
+ width: 100%;   
+}
+@media(max-width:770px){
+    .filtros,.ver_pro>div,.articulos,.ver_pro>div>div,.servicios>div,.servicios>div>div,.carrito>div:first-child,.carrito>div:last-child{
+        width: 100%;
+    }
+}
