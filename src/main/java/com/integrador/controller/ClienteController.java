@@ -21,12 +21,6 @@ public class ClienteController {
 	@Autowired
 	ClienteService _clienteService;
 	
-	
-	@GetMapping("/")
-	public String index() {
-		return "index";
-	}
-	
 	@GetMapping("/login")
 	public String login(Model model) {
 		model.addAttribute("cliente", new Cliente());
@@ -50,4 +44,7 @@ public class ClienteController {
 			return "index";
 		}
 	}
+	
+
+	
 }
